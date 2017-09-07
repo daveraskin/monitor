@@ -1,0 +1,16 @@
+
+<% include ./partials/header.ejs %>
+
+    <div class="templateContainer" data-bind="template: { name: currentTemplate() }"></div>
+
+    <script id="#monitortheband" type="text/html">
+      <% include ./partials/landingPage.ejs %>
+    </script>
+    <script id="#performances" type="text/html">
+      <% include ./partials/performances.ejs %>
+    </script>
+    <script id="#propaganda" type="text/html">
+      <% include ./partials/propaganda.ejs %>
+    </script>
+
+<% include ./partials/footer.ejs %>
